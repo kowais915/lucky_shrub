@@ -67,3 +67,7 @@ main{
     margin: 0 auto;
     
 }
+
+section.banner{
+    margin-bottom: 40px;
+}
