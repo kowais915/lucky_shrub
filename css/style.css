@@ -13,3 +13,46 @@ img{
     height: 200px;
     width: 150px;
 }
+
+/* styling navbar */
+
+li, a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+}
+
+nav>ul{
+    display: flex;
+    justify-content: space-around;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+nav>ul>li{
+   
+    padding: 10px
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+
+nav>ul>li>a:hover{
+    background-color: white;
+    color: black;
+}
+    
