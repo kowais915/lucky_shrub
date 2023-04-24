@@ -56,3 +56,14 @@ nav>ul>li>a:hover{
     color: black;
 }
     
+/* styling the main content area */
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.banner{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
