@@ -19,23 +19,23 @@
     <nav>
         <ul>
             <li><a href="#">Home Page</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">contact</a></li>
-            <li><a href="#">Info</a></li>
+            <li><a href="#banner">Promotions</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
 
     <!-- main section starts from here -->
     <main>
-        <section class="banner alert alert-info" role="alert">
+        <section class="banner alert alert-info" role="alert" id="banner">
 
             <h3>70% off this spring.</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit similique aut rerum sequi, officiis deleniti dolor, beatae unde tempore nemo amet culpa. Similique minima harum voluptate perspiciatis ratione? Sint, placeat?</p>
 
         </section>
 
-        <section class="products">
+        <section class="products" id="products">
             <h2 style="text-align: center; margin-bottom: 20px;">Products</h2>
             
             <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -67,7 +67,7 @@
                   </div>
                 </div>
 
-                <!-- secon row -->
+                <!-- second row -->
 
                 <div class="col">
                     <div class="card h-100 w-100">
@@ -102,11 +102,40 @@
 
 
         </section>
+
+        <section class="contact" id="contact">
+
+            <div>
+                <h2 style="text-align: center; margin-bottom: 20px;">Contact</h2>
+            </div>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+               
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </section>
     </main>
 
     <!-- footer starts from here -->
     <footer>
-        <h1>This is the footer</h1>
+
+        <div class="footer-logo">
+            <img src="./assets//logos/Asset 2@3x.png" alt="" srcset="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2023 Lucky Shrub. All rights reserved.</p>
+        </div>
+
+
     </footer>
     
     

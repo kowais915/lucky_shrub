@@ -71,3 +71,43 @@ main{
 section.banner{
     margin-bottom: 40px;
 }
+
+/* styling the contact page */
+.contact{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+form{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+
+input{
+    max-width: 700px;
+}
+
+/* styling footer */
+footer{
+    padding: 20px;
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+    margin-top: 100px;
+}
+
+body > footer > div.footer-logo > img{
+    height: 100px;
+    width: 100px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
